@@ -1,0 +1,9 @@
+@import 'color-matrix';
+@import '_vars.scss';
+@import '_mixins.scss';
+@import '_fonts.scss';
+@import '_extends.scss';
+
+.header {
+  background: linear-gradient(135deg, $wisteria 0%, $brandyPunch 100%);
+}
