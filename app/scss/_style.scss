@@ -1,3 +1,8 @@
+@import 'bootstrap-override';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap//grid';
 @import 'color-matrix';
 @import '_vars.scss';
 @import '_mixins.scss';
@@ -6,4 +11,9 @@
 
 .header {
   background: linear-gradient(135deg, $wisteria 0%, $brandyPunch 100%);
+  color: $main;
+}
+
+.contacts-navigation {
+  border-bottom: 1px solid lighten($color: $main, $amount: 0.1);
 }
